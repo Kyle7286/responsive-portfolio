@@ -1,0 +1,20 @@
+.container {
+    margin-bottom: 20px;
+}
+
+.row {
+    background-color: salmon;
+    outline: 1px solid black;
+}
+
+[class*=align-items],
+.example-alignself {
+    height: 100px;
+}
+
+[class^=col] {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: tomato;
+    border: 1px solid black;
+}

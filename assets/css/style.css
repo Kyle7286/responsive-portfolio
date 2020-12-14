@@ -1,0 +1,35 @@
+body {
+    background-image: url(../images/background_abstractblue.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#aboutme {
+    width: 65%;
+    background-color: lightblue;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+
+#float {
+    float: left;
+    margin-right: 20px;
+}
+
+#row1 {
+    /* background-color: teal; */
+    /* border: blue dashed 1px; */
+}
+
+#row2 {
+/* background-color: goldenrod; */
+/* border: yellowgreen dashed 1px; */
+}
+
