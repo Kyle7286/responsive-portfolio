@@ -5,11 +5,20 @@ body {
     /* background-size: cover; */
 }
 
+.main {
+    width: 75%;
+    background-color: gray;
+    margin-left: 5%;
+}
+
+
 #aboutme {
     background-color:rgb(215, 218, 214);
-    /* margin-left: 2%;
-    margin-top: 5%;
-    margin-right: 5%; */
+    padding: 5%;
+}
+
+.imgaboutme {
+    margin-bottom: 1px;
 }
 
 .box {
