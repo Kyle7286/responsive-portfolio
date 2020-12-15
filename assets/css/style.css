@@ -1,15 +1,15 @@
 body {
-    background-image: url(../images/background_abstractblue.jpg);
+    /* Background credit: https://www.toptal.com/designers/subtlepatterns/ */
+    background-image: url("../images/background_1.jfif");
     background-attachment: fixed;
-    background-size: 100% 100%;
+    /* background-size: cover; */
 }
 
 #aboutme {
-    width: 65%;
-    background-color: lightblue;
-    margin-left: 2%;
+    background-color:rgb(215, 218, 214);
+    /* margin-left: 2%;
     margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 5%; */
 }
 
 .box {

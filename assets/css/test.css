@@ -1,20 +1,46 @@
 .container {
-    margin-bottom: 20px;
+    /* width: 50%; */
+    /* padding: 20px; */
 }
 
 .row {
-    background-color: salmon;
-    outline: 1px solid black;
+    height: 50px;
 }
 
-[class*=align-items],
-.example-alignself {
-    height: 100px;
+#row1 {
+    background-color: cornflowerblue;
 }
 
-[class^=col] {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    background-color: tomato;
+#row2 {
+    background-color:tomato;
+}
+
+#row3 {
+    background-color:yellowgreen ;
+}
+
+/* [class^=col] {
+    height: 40px;
     border: 1px solid black;
-}
+} */
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */

@@ -12,25 +12,74 @@
 
     <title>Portfolio - Brandon Haley</title>
 </head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Brandon Haley</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
 <body>
- 
- <div class="container">
-    <div class="row"></div>
-        <div class="col"></div>
-        <div class="col"></div>
-    <div class="row"></div>
+  <div class="container" width="50%">
+    <div class="row example-alignself" id="row1">
+        <div class="col flex-last">Col 1-md</div>
+        <div class="col flex-first">Col 2-md</div>
+    </div>
 
-
+    <div class="row row align-items-center" id="row2">
+        <div class="col">Col 1-sm</div>
+        <div class="col">Col 2-sm</div>
+        <div class="col">Col 3-sm</div>
+    </div>
+    
+    <div class="row row align-items-end" id="row3">
+        <div class="col">Col 1-lg</div>
+        <div class="col">Col 2-lg</div>
+        
+    </div>
  </div>
 
 
-    
-    
 
-
+    
     
 
 
+<footer>
+    <nav class="navbar sticky-top navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sticky Footer</a>
+        </div>
+    </nav>
+</footer>
 
 
 
@@ -39,9 +88,10 @@
 
 
 
-<!-- Text Icon/Image usage -->
-<script src="https://kit.fontawesome.com/2f4afaae31.js" crossorigin="anonymous"></script>
-<!-- [Bootstrap] Bundle JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
+
+    <!-- Text Icon/Image usage -->
+    <script src="https://kit.fontawesome.com/2f4afaae31.js" crossorigin="anonymous"></script>
+    <!-- [Bootstrap] Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
 </body>
 </html>

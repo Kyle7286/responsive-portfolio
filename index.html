@@ -14,33 +14,44 @@
 
     <title>Portfolio - Brandon Haley</title>
 </head>
-<body>
- 
+<body class="d-flex flex-column h-100">
+    
+    <!-- START Nav bar; used justify-content-end to move the collapse links -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <a class="navbar-brand" href="#">Navbar</a>
-        <a class="navbar-brand" href="#">Navbar</a>
-        <a class="navbar-brand" href="#">Navbar</a>
-        <a class="navbar-brand" href="#">Navbar</a>
-        
-        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Brandon Haley</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
     </nav>
+    <!-- END Nav Bar -->
 
 
-    <!-- Main large screen Content  -->
+    <!-- START Main  Content  -->
     <div class="container" id="aboutme">
         <!-- ROW 1 -->
         <div class="row" id="row1">
@@ -63,18 +74,12 @@
             </div>
           </div>
   
-      </div> <!-- END CONTAINER -->    
+    </div> 
+    <!-- END Main content -->    
 
 
+  
     
-    
-
-
-    
-
-
-
-
 
 
 
