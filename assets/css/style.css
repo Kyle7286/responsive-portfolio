@@ -5,38 +5,29 @@ body {
     /* background-size: cover; */
 }
 
+/* Adding margin around main container */
 .main {
-    /* width:100%; */
     margin: 2.9%;
-    background-color: greenyellow;
 }
 
 #aboutme {
     background-color:rgb(215, 218, 214);
     padding: 9%;
     margin-top: 50px;
-    border: dashed 1px yellowgreen;
 }
-
-
-
 
 #float {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 }
-/* // Large devices (desktops, 992px and up) */
-/* @media screen and (min-width: 992px) {
-    .main {
-        width: 60%;
-    }
-}  */
+
+ /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {
     .main {
         width: 60%;
     }
-}  */
+}
 
     
  
