@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- SECTION: STYLING -->
     <!-- [Bootstrap] CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- global styling -->
+    <link rel="stylesheet" href="./assets/css/global.css">
     <!-- Manual styling -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- added favicon -->
     <link rel="icon" href="./assets/images/favicon_profile.png" type="image/x-icon"> 
+    <!-- END SECTION: STYLING -->
+
+    <!-- JS Script -->
 
     <title>Portfolio - Brandon Haley</title>
 </head>
@@ -58,7 +64,7 @@
              <div class="row" id="row1">
               <!-- COLUMN 12 -->
                <div class="col-md-12">
-                  <h1>About Me</h1>
+                  <h1>Contact</h1>
               </div>
             </div>
             <hr class="solid">
@@ -67,10 +73,19 @@
             <div class="row" id="row2">
                 <!-- COLUMN 12 -->
                  <div class="col-md-12">
-                    <img src="https://via.placeholder.com/500x500" alt="Profile_Picture" class="img-thumbnail imgaboutme" id="float" width="200">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas rutrum nulla, vel maximus eros blandit eu. Sed elementum et ligula nec facilisis. Nam nec purus ligula. Pellentesque ultricies sagittis porta. Maecenas facilisis ipsum eros, eget rutrum enim fringilla eget. Phasellus dictum ultrices facilisis. Nunc feugiat facilisis mattis.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas rutrum nulla, vel maximus eros blandit eu. Sed elementum et ligula nec facilisis. Nam nec purus ligula. Pellentesque ultricies sagittis porta. Maecenas facilisis ipsum eros, eget rutrum enim fringilla eget. Phasellus dictum ultrices facilisis. Nunc feugiat facilisis mattis.</p>
-                </div>
+                    <div class="mb-3 ms-3">
+                      
+                      <label for="exampleFormControlInput1" class="form-label">Name</label>
+                      <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Name">
+                      <label for="exampleFormControlInput1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                      <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                    </div>
+
+
+             
+                  </div>
             </div>    
         </div> 
     </div>
@@ -88,9 +103,5 @@
 
 
 
-<!-- Text Icon/Image usage -->
-<script src="https://kit.fontawesome.com/2f4afaae31.js" crossorigin="anonymous"></script>
-<!-- [Bootstrap] Bundle JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
 </body>
 </html>
