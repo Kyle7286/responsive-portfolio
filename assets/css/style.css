@@ -1,39 +1,5 @@
-body {
-    /* Background credit: https://www.toptal.com/designers/subtlepatterns/ */
-    background-image: url("../images/background_1.jfif");
-    background-attachment: fixed;
-    /* background-size: cover; */
-}
-
-/* Adding margin around main container */
-.main {
-    margin: 2.9%;
-}
-
-#aboutme {
-    background-color:rgb(215, 218, 214);
-    padding: 9%;
-    margin-top: 50px;
-}
-
 #float {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 }
-
- /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) {
-    .main {
-        width: 60%;
-    }
-}
-
-    
- 
-
-/* // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
-
-/* // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }  */
