@@ -6,24 +6,22 @@ body {
 }
 
 .main {
-    width: 60%;
-    margin-left: 5%;
+    /* width:100%; */
+    margin: 3%;
 }
+
+
 
 
 #aboutme {
     background-color:rgb(215, 218, 214);
-    padding: 5%;
+    padding: 9%;
     margin-top: 50px;
+    border: dashed 1px yellowgreen;
 }
 
 .imgaboutme {
     margin-bottom: 1px;
-}
-
-.box {
-    width: 200px;
-    height: 200px;
 }
 
 
@@ -42,3 +40,37 @@ body {
 /* border: yellowgreen dashed 1px; */
 }
 
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .main {
+        /* margin: 20%; */
+        width: 65%;
+    }
+} 
+
+@media screen and (min-width: 768x) {
+    .main {
+        width: 50%;
+        background-color: teal; 
+    }
+} 
+
+    
+ 
+
+/* // X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+/* // XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }  */
