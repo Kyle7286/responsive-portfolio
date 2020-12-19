@@ -2,17 +2,18 @@
 font-family: 'Viga', sans-serif;
 */
 
-h1 {
-    font-family: 'Viga', sans-serif;
-}
-
 /* repeating pattern backbground image */
 body {
     background-image: url("../images/background_1.jfif");
     background-attachment: fixed;
 }
 
-/* small margin around the main main div container */
+/* Not sure if I will keep this font; tbd */
+h1 {
+    font-family: 'Viga', sans-serif;
+}
+
+/* small margin around the  main div container */
 main {
     margin: 2.9%;
 }

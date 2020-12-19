@@ -1,2 +1,34 @@
-# portfolio
-This webpage will be a responsive portfolio in which the website is designed to work across multiple device widths seamlessly.  The content will contain a bio about me and other details/pages with information.
+# Horiseon Code-Refactor 
+
+## General 📖
+---
+- Date:           12/11/2020
+- Refactored by:  Brandon Haley
+- Email:          Kyle7286@gmail.com
+- Github:         https://github.com/Kyle7286/code-refactor
+- Website:        https://kyle7286.github.io/code-refactor/
+
+## About/Purpose ❔
+---
+
+
+
+
+## Takeaways 🥡
+--- 
+* 
+
+## Screenshots 📊
+---
+![Screenshot](...)
+
+
+
+## Thank you 👍 
+---
+Thank you for your time reviewing my project/code!<br>
+I offer you a relaxing scenery; enjoy.
+![Iceland](...)
+<span style="color:#a0c9f0">Eastern Fjords of Iceland</span>
+
+
