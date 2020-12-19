@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- added favicon -->
   <link rel="icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
   <!-- END SECTION: STYLING -->
 
   <!-- [JS Scripts] Defered -->
@@ -30,6 +33,7 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
+
 
   <!-- START Nav bar; used justify-content-end to move the collapse links -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -55,10 +59,11 @@
               data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown link
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <!-- Moved dropdown box alignment to fix overflowing into the body right side; dark color -->
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Coming soon...</a></li>
+              <li><a class="dropdown-item" href="#">Coming soon...</a></li>
+              <li><a class="dropdown-item" href="#">Coming soon...</a></li>
             </ul>
           </li>
         </ul>
@@ -66,6 +71,10 @@
     </div>
   </nav> -->
   <!-- END Nav Bar -->
+
+
+
+
 
 
   <!-- START Main  Content -->
@@ -119,14 +128,6 @@
     </div>
   </footer>
 
-
-
-  <!-- Text Icon/Image usage -->
-  <script src="https://kit.fontawesome.com/2f4afaae31.js" crossorigin="anonymous"></script>
-  <!-- [Bootstrap] Bundle JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>

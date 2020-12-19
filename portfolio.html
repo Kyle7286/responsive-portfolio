@@ -36,7 +36,7 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-  <!-- START Nav bar; used justify-content-end to move the collapse links to the right -->
+  <!-- START Nav bar; used justify-content-end to move the collapse links -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Brandon Haley</a>
@@ -60,7 +60,8 @@
               data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown link
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <!-- Moved dropdown box alignment to fix overflowing into the body right side; dark color -->
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -69,7 +70,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
   <!-- END Nav Bar -->
 
 
@@ -137,15 +138,6 @@
       <span class="text-muted">&copy;Made with real pixels</span>
     </div>
   </footer>
-
-
-
-  <!-- Text Icon/Image usage -->
-  <script src="https://kit.fontawesome.com/2f4afaae31.js" crossorigin="anonymous"></script>
-  <!-- [Bootstrap] Bundle JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
