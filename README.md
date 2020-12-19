@@ -36,7 +36,7 @@ Coming Soon!
 ---
 Thank you for your time reviewing my project/code!<br>
 I offer you a relaxing scenery from my Iceland trip - Enjoy!
-![Iceland](./assets\images\portfolio\DSC_6110.jpg)
+![Iceland](./assets/images/portfolio/DSC_6110.jpg)
 <span style="color:#a0c9f0">Skógafoss, South Iceland</span>
 
 
