@@ -25,6 +25,9 @@ This website is to become my personal showcase / portfolio.  Currently, it conta
 * Learned that it would be better to create all global content on a single page first before proceeding with creating the same content on another page to prevent retrofitting your fixes/changes you discover as time goes on.  
     * Essentially, focus on 1 page at a time and get it as perfect as you can, then copy it to your other pages
 
+* Learned how to not relay on media queries while leveraging bootstrap
+    * Also learned how to use media queries for some situations
+
 ## Screenshots 📊
 ---
 ![Screenshot](./assets/images/screenshot_about.png)
