@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--       
+                                                            
+  (                   (               ( /(      (            
+ ( )\ (      )        )\ )            )\())   ) )\  (  (     
+ )((_))(  ( /(  (    (()/( (   (     ((_)\ ( /(((_)))\ )\ )  
+((_)_(()\ )(_)) )\ )  ((_)))\  )\ )   _((_))(_))_ /((_|()/(  
+ | _ )((_|(_)_ _(_/(  _| |((_)_(_/(  | || ((_)_| (_))  )(_)) 
+ | _ \ '_/ _` | ' \)) _` / _ \ ' \)) | __ / _` | / -_)| || | 
+ |___/_| \__,_|_||_|\__,_\___/_||_|  |_||_\__,_|_\___| \_, | 
+|                                                       |__/  
+-->
 
 <head>
   <!-- Required meta tags -->
@@ -34,56 +45,67 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-
-  <!-- START Nav bar; used justify-content-end to move the collapse links -->
+  <!-- START: Nav bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
+
+      <!-- Home page link (About); left side -->
       <a class="navbar-brand" href="index.html">Brandon Haley</a>
+
+      <!-- Mobile collapse button (burger); right side -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <!-- Main navbar continer with links and dropdown menu -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <!--  -->
         <ul class="navbar-nav">
+          <!-- Contact Link; goes to Contact page -->
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
           </li>
+          <!-- Portfolio link; goes to portfolio page -->
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
+          <!-- About link; goes to about page -->
           <li class="nav-item">
             <a class="nav-link active" href="index.html">About</a>
           </li>
+
+          <!-- Dropdown box which contains more links/elements -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
+              More content
             </a>
+
             <!-- Moved dropdown box alignment to fix overflowing into the body right side; dark color -->
             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+              <!-- Content to come soon! Stay tuned -->
               <li><a class="dropdown-item" href="#">Coming soon...</a></li>
               <li><a class="dropdown-item" href="#">Coming soon...</a></li>
               <li><a class="dropdown-item" href="#">Coming soon...</a></li>
             </ul>
+
           </li>
         </ul>
       </div>
+
     </div>
   </nav> -->
-  <!-- END Nav Bar -->
+  <!-- END: Nav Bar -->
 
 
-
-
-
-
-  <!-- START Main  Content -->
+  <!-- START: Main Content -->
   <main>
     <div class="container" id="aboutme">
-      <!-- ROW 1 -->
+      <!-- ROW 1.0 -->
       <div class="row" id="row1">
 
-        <!-- COLUMN - 12 -->
+        <!-- COLUMN 1.1 -->
         <div class="col">
           <h1>About Me</h1>
         </div>
@@ -92,36 +114,67 @@
       <!-- divider -->
       <hr class="solid">
 
-      <!-- Row 2 -->
+      <!-- Row 2.0 -->
       <div class="row" id="row2">
 
-        <!-- COLUMN - 12 -->
+        <!-- COLUMN 2.1 -->
         <div class="col-md-12">
-          <img src="./assets/images/profile_spain.jpg" alt="Profile_Picture" class="img-thumbnail imgaboutme" id="float"
-            width="200">
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas rutrum nulla, vel maximus eros
-            blandit eu. Sed elementum et ligula nec facilisis. Nam nec purus ligula. Pellentesque ultricies sagittis
-            porta. Maecenas facilisis ipsum eros, eget rutrum enim fringilla eget. Phasellus dictum ultrices facilisis.
-            Nunc feugiat facilisis mattis.</p>
+          <!-- set width to limit size on larger screens -->
+          <img src="./assets/images/profile_spain.jpg" alt="Profile Picture Brandon Haley About Me Portfolio"
+            class="img-thumbnail imgaboutme" id="float" width="200">
+          <h5>Professional</h5>
+          <p>My name is Brandon Haley and I am currently a manager at a cloud hosting company reponsible for ensuring
+            all of our clients'
+            applications and databases are implemented and maintained for a seamless app streaming experience. One of
+            the many notable
+            challanges the team faces day to day is scaling our app install and update deployments across the client
+            base efficiently.
+            As a result, it is imperative we develop automated solutions to deploy simple and/or complex application
+            procedures to attain
+            speed and consistency. I have in-depth scripting experience within the Microsoft Windows environment,
+            leveraging languages such as CMD, PowerShell & AutoIT.</p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas rutrum nulla, vel maximus eros
-            blandit eu. Sed elementum et ligula nec facilisis. Nam nec purus ligula. Pellentesque ultricies sagittis
-            porta. Maecenas facilisis ipsum eros, eget rutrum enim fringilla eget. Phasellus dictum ultrices facilisis.
-            Nunc feugiat facilisis mattis.</p>
+          <p>Scripting/Programming has been one of my passions I wanted to pursue for a long time and I am fully
+            invested into learning the ins-and-outs
+            of what a developer is and does. As a Manager, I miss the technical process of solving problems and tapping
+            into my creative abilities.
+            I am taking this bootcamp to tap into my passion for coding and eventually open new developer opportunities
+            that allow me to get back into the
+            technical role, or a hybrid non-technical role. My current goal would be to eventually become a DevOps
+            manager after I have
+            gained the needed confidence of a developer.</p>
+
+          <!-- set width to limit size on larger screens -->
+          <img src="./assets/images/furbabies.JPG" alt="three dogs jack russles" class="img-thumbnail imgaboutme"
+            id="float" width="200">
+          <h5>Private</h5>
+
+          <p>In my private life, I am married to my wife Melissa (pictured above) and we are proud parents of three
+            fur-babies🐕🐕🐕 (pictured left) who keep us busy. We live in Sugar Hill, Georgia which is where I have
+            lived
+            my whole life.
+            In our spare time, we are avid tennis players, foodies and love to travel the world in search of beautful
+            landscapes.
+            Some countries we have explored thus far: Iceland, Norway, Sweden, Spain, Costa Rica and Thailand. We are
+            planning to explore New Zealand, Switzerland and Germany in the future.
+            One interesting fact about me is that I used to DJ in Atlanta and was involved in the music scene. My
+            favorite aspect of music was the technical process of creating tracks which unto this day is still a skill I
+            am learning and has been one of the most difficult challenges I have faced.</p>
+
+          <p>I am very excited to learn how to code and to become a part of a development team.
+          </p>
+
         </div>
-
       </div>
-
     </div>
-
   </main>
-  <!-- END Main content -->
+  <!-- END: Main Content -->
 
 
 
 
-  <!-- sticky footer -->
+  <!-- sticky footer; ensure <body> contains proper settings found it BS5.0-->
   <footer class="footer mt-auto py-3 bg-dark">
     <div class="container">
       <span class="text-muted">&copy;Made with real pixels</span>

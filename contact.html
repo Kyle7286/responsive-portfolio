@@ -34,90 +34,105 @@
 
 <body class="d-flex flex-column min-vh-100">
 
-  <!-- START Nav bar; used justify-content-end to move the collapse links -->
+  <!-- START: Nav bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
+
+      <!-- Home page link (About); left side -->
       <a class="navbar-brand" href="index.html">Brandon Haley</a>
+
+      <!-- Mobile collapse button (burger); right side -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
+      <!-- Main navbar continer with links and dropdown menu -->
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <!--  -->
         <ul class="navbar-nav">
+          <!-- Contact Link; goes to Contact page -->
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
           </li>
+          <!-- Portfolio link; goes to portfolio page -->
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
+          <!-- About link; goes to about page -->
           <li class="nav-item">
             <a class="nav-link" href="index.html">About</a>
           </li>
+
+          <!-- Dropdown box which contains more links/elements -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown link
+              More content
             </a>
+
             <!-- Moved dropdown box alignment to fix overflowing into the body right side; dark color -->
             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <!-- Content to come soon! Stay tuned -->
+              <li><a class="dropdown-item" href="#">Coming soon...</a></li>
+              <li><a class="dropdown-item" href="#">Coming soon...</a></li>
+              <li><a class="dropdown-item" href="#">Coming soon...</a></li>
             </ul>
+
           </li>
         </ul>
       </div>
     </div>
   </nav> -->
-  <!-- END Nav Bar -->
+  <!-- END: Nav Bar -->
 
 
-  <!-- START Main  Content -->
+  <!-- START: Main  Content -->
   <main>
     <div class="container" id="aboutme">
-      <!-- ROW - 1 -->
+      <!-- ROW 1.0 -->
       <div class="row" id="row1">
-        <!-- COLUMN 12 -->
+        <!-- COLUMN 1.1 -->
         <div class="col-md-12">
           <h1>Contact</h1>
         </div>
       </div>
       <hr class="solid">
 
-      <!-- Row - 2 -->
+      <!-- Row 2.0 -->
       <div class="row" id="row2">
-        <!-- COLUMN 12 -->
+        <!-- COLUMN 2.1 -->
         <div class="col-md-12">
           <div class="mb-3 ms-3 me-5">
+
             <!-- NAME INPUT -->
             <label for="exampleFormControlInput1" class="form-label">Name</label>
             <input type="text" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Name">
+
             <!-- EMAIL INPUT -->
             <label for="exampleFormControlInput1" class="form-label">Email</label>
             <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Email">
 
+            <!-- MESSAGE INPUT -->
             <label for="exampleFormControlTextarea1" class="form-label">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
           </div>
-          <!-- Submit Button -->
+
+          <!-- Submit Button; currently not functional; plan to add logic later -->
           <button type="submit" class="btn btn-dark">Submit</button>
+
         </div>
       </div>
     </div>
   </main>
-  <!-- END Main content -->
+  <!-- END: Main Content -->
 
-
-
-
-  <!-- sticky footer -->
+  <!-- sticky footer; ensure <body> contains proper settings found it BS5.0-->
   <footer class="footer mt-auto py-3 bg-dark">
     <div class="container">
       <span class="text-muted">&copy;Made with real pixels</span>
     </div>
   </footer>
-
-
 
 </body>
 

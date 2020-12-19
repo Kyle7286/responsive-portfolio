@@ -30,7 +30,7 @@ footer {
 }
 
 /* ----------------------- MEDIA QUERIES ----------------------- */
- /* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) */
  @media screen and (min-width: 576px) {
     /* for larger screens, the width set to 60% of the page; smaller screens use 100% width */
     main {

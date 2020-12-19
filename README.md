@@ -1,8 +1,8 @@
-# Horiseon Code-Refactor 
+# Portfolio - Brandon Haley
 
 ## General 📖
 ---
-- Date:           12/11/2020
+- Date:           12/19/2020
 - Refactored by:  Brandon Haley
 - Email:          Kyle7286@gmail.com
 - Github:         https://github.com/Kyle7286/responsive-portfolio/
@@ -21,6 +21,9 @@ This website is to become my personal showcase / portfolio.  Currently, it conta
 * Figured out what "mobile first" means in terms of website building with bootstrap; meaning that the content needs to be told what to do when the page is getting larger rather than getting smaller
 
 * Found a quick and easy way to configure column content and limit rows with "row-cols-lg-2" and also configure gutters
+
+* Learned that it would be better to create all global content on a single page first before proceeding with creating the same content on another page to prevent retrofitting your fixes/changes you discover as time goes on.  
+    * Essentially, focus on 1 page at a time and get it as perfect as you can, then copy it to your other pages
 
 ## Screenshots 📊
 ---
