@@ -27,8 +27,9 @@ This website is to become my personal showcase / portfolio.  Currently, it conta
 
 ## Screenshots 📊
 ---
-Coming Soon! 
-![Screenshot](...)
+![Screenshot](./assets/images/screenshot_about.png)
+![Screenshot](./assets/images/screenshot_contact.png)
+![Screenshot](./assets/images/screenshot_portfolio.png)
 
 
 
