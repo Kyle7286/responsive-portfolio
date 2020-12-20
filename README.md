@@ -3,7 +3,7 @@
 ## General 📖
 ---
 - Date:           12/19/2020
-- Refactored by:  Brandon Haley
+- Author:  Brandon Haley
 - Email:          Kyle7286@gmail.com
 - Github:         https://github.com/Kyle7286/responsive-portfolio/
 - Website:        https://kyle7286.github.io/responsive-portfolio/
