@@ -10,6 +10,11 @@ body {
     background-attachment: fixed;
 }
 
+/* navbar dropdown links styling */
+#soundcloud {
+    color: #ff3c00;
+}
+
 /* Not sure if I will keep this font; tbd */
 h1, h5 {
     font-family: 'Viga', sans-serif;
